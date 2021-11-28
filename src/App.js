@@ -8,6 +8,9 @@ import Timer from './hooks/effect/Timer';
 import TimerClear from './hooks/effect/TimerClear';
 import Car from './hooks/state/Car';
 import FavoriteColor from './hooks/state/FavoriteColor';
+// import UsersProfile from './hooks/useEffect/UsersProfile';
+import UsersProfile2 from './hooks/useEffect/UsersProfile2';
+import Memo from './hooks/useMemo/Memo';
 import Add from './hooks/useState/Add';
 // import FirstComponent from './components/FirstComponent';
 // import SecondComponent from './components/SecondComponent';
@@ -19,6 +22,13 @@ function App() {
       Hello <br/>
       <h3>UseState</h3>
       <Add/>
+
+      <h3>UseEffect</h3>
+      {/* <UsersProfile/> */}
+      <UsersProfile2/>
+
+      <h3>UseMemo</h3>
+      <Memo/>
       {/* <useCustomHook/> */}
       {/* <FirstComponent/> */}
       {/* <SecondComponent/> */}
