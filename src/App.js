@@ -8,6 +8,7 @@ import Timer from './hooks/effect/Timer';
 import TimerClear from './hooks/effect/TimerClear';
 import Car from './hooks/state/Car';
 import FavoriteColor from './hooks/state/FavoriteColor';
+import Add from './hooks/useState/Add';
 // import FirstComponent from './components/FirstComponent';
 // import SecondComponent from './components/SecondComponent';
 // import useCustomHook from './custom/useCustom';
@@ -15,7 +16,9 @@ import FavoriteColor from './hooks/state/FavoriteColor';
 function App() {
   return (
     <div className="App">
-      Hello
+      Hello <br/>
+      <h3>UseState</h3>
+      <Add/>
       {/* <useCustomHook/> */}
       {/* <FirstComponent/> */}
       {/* <SecondComponent/> */}
@@ -27,6 +30,7 @@ function App() {
       <Counter/>
       <AppColor/>
       <AppThemeUpdate/>
+
     </div>
   );
 }
