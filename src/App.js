@@ -11,6 +11,13 @@ import FavoriteColor from './hooks/state/FavoriteColor';
 // import UsersProfile from './hooks/useEffect/UsersProfile';
 import UsersProfile2 from './hooks/useEffect/UsersProfile2';
 import Memo from './hooks/useMemo/Memo';
+import Memo2 from './hooks/useMemo/Memo2';
+import Ref from './hooks/useRef/Ref';
+import Ref2 from './hooks/useRef/Ref2';
+import Ref3 from './hooks/useRef/Ref3';
+import Ref4 from './hooks/useRef/Ref4';
+import Ref5 from './hooks/useRef/Ref5';
+import Ref6 from './hooks/useRef/Ref6';
 import Add from './hooks/useState/Add';
 // import FirstComponent from './components/FirstComponent';
 // import SecondComponent from './components/SecondComponent';
@@ -29,6 +36,17 @@ function App() {
 
       <h3>UseMemo</h3>
       <Memo/>
+      <Memo2/>
+
+      <h3>UseRef</h3>
+      <Ref/>
+      <Ref2/>
+      <br/>
+      <Ref3/>
+      <Ref4/>
+      <Ref5/>
+      <h4>Ref6</h4>
+      <Ref6/>
       {/* <useCustomHook/> */}
       {/* <FirstComponent/> */}
       {/* <SecondComponent/> */}
