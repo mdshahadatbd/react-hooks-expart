@@ -24,6 +24,12 @@ import AppThemeUpdate from './hooks/useContext2/AppThemeUpdate';
 import Reducer from './hooks/useReducer/Reducer';
 import Todos from './hooks/useReducer/Todos';
 import ReducerTodo from './hooks/useReducer/ReducerTodo';
+import Callback from './hooks/useCallback/Callback';
+import Callback2 from './hooks/useCallback2/Callback2';
+import Custom from './hooks/useCustom2/Custom.jsx';
+import LayoutEffect from './hooks/useLayoutEffect/LayoutEffect';
+// import Home2 from './hooks/useCustom/Home2';
+// import Home from './hooks/useCustom/Home';
 
 // import FirstComponent from './components/FirstComponent';
 // import SecondComponent from './components/SecondComponent';
@@ -62,6 +68,19 @@ function App() {
       <Reducer/>
       <Todos/>
       <ReducerTodo/>
+
+      <br/>
+      <h3>UseCallback</h3>
+      <Callback/>
+      <Callback2/>
+
+      <h3>useCustom</h3>
+      {/* <Home/> */}
+      {/* <Home2/> */}
+      <Custom/>
+
+      <h3>UselayoutEffect</h3>
+      <LayoutEffect/>
       {/* <useCustomHook/> */}
       {/* <FirstComponent/> */}
       {/* <SecondComponent/> */}
