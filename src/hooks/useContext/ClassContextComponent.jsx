@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ThemeContext } from './AppTheme'
 
-class ClassContextComponent extends Component {
+export default class ClassContextComponent extends Component {
     themeStyles(dark) {
         return {
             backgroundColor: dark ? '#333' : '#ccc',
@@ -20,5 +20,3 @@ class ClassContextComponent extends Component {
     );
   }
 }
-
-export default ClassContextComponent;

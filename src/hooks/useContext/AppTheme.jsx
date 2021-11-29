@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import FunctionContextComponent from '../context2/FunctionContextComponent'
-import ClassContextComponent from '../context2/ClassContextComponent'
+import ClassContextComponent from './ClassContextComponent'
+import FunctionContextComponent from './FunctionContextComponent'
 
 export const ThemeContext = React.createContext()
 
